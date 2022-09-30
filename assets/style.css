@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.cont-code-black{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+header{
+    /* border: 1px  solid red; */
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.cont-icon-1{
+    padding: 3px 5px;
+    border-radius: 2px;
+    margin-right: 10px;
+    background-color: gray;
+}
+
+.cont-icon-2{
+    padding: 3px;
+    border-radius: 2px;
+    background-color: gray;
+}
+
+main{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+
+    width: calc(90vw/7);
+    background-image: url(https://picsum.photos/500/350);
+    /* dimensione immagine senza "no-repeat" sono 185/350, chiedere perchè succede */
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 6px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.cont-icon-3{
+    width: fit-content;
+    border-radius: 3px ;
+    padding: 3px;
+    background-color: gray;
+    text-align: center;
+}
+
+.foot-cont{
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.cont-icon-foot{
+    margin-right: 20px;
+}
+
+.foot-center{
+    margin: auto;
+}
+
+
+
+
+button{
+    border:  red;
+    background-color: red;
+    padding: 7px 5px;
+    border-radius: 10px;
+}
